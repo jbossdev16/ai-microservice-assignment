@@ -288,7 +288,7 @@ You can customize the system through environment variables:
 
 ## Performance
 
-Based on testing with Apple Silicon M2:
+Based on testing with Apple Silicon M3 Pro:
 
 | Endpoint | Average Time | What takes time |
 |----------|--------------|-----------------|
