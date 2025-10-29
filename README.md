@@ -292,9 +292,9 @@ Based on testing with Apple Silicon M3 Pro:
 
 | Endpoint | Average Time | What takes time |
 |----------|--------------|-----------------|
-| /recognize | ~1.5 seconds | OCR (1.0s), Matching (0.1s) |
-| /products/{id}/answer | ~2.5 seconds | OpenAI API call (2.3s), Retrieval (0.1s) |
-| /recognize-and-answer | ~4.0 seconds | Both operations combined |
+| /recognize | ~1.1 seconds | OCR (1.0s), Matching (0.1s) |
+| /products/{id}/answer | ~2 seconds | OpenAI API call (2.5s), Retrieval (0.1s) |
+| /recognize-and-answer | ~3.5 seconds | Both operations combined |
 | /health | <0.01 seconds | Simple status check |
 
 **Resource Usage:**
